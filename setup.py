@@ -1,7 +1,9 @@
+# https://github.com/Farama-Foundation/gym-examples
+
 from setuptools import setup
 
 setup(
-    name="",
-    version="",
-    install_requires=[],
+    name="esotris_gym",
+    version="0.0.1",
+    install_requires=["gym==0.26.0", "pygame==2.1.0"],
 )
